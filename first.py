@@ -24,3 +24,22 @@ print(type(set))
 a = "hello"
 if(a=="hello"):
     print("Yes it's in set")
+
+
+
+print('''
+dsdvdfv
+vdfvdfb
+fvdfvsd
+v
+dfv
+sdv
+df
+v
+dfv
+''')
+
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("Hello i am zero")
+engine.runAndWait()
