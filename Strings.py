@@ -11,7 +11,7 @@ a = word[0:5:2]
 # String's functions
 print(len(word))
 
-print(word.endswith("n"))  # returns true as string ends with n
+print(word.endswith("g"))  # returns true as string ends with g
 print(word.endswith("d")) # returns false as string doesn't ends with d
 name = input("enter your name\n")
 
