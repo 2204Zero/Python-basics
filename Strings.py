@@ -6,7 +6,7 @@ print(name[-1:6]) #never use negative index (although they work but they create 
 print(name[1:])  #it is same as [1:4]
 print(name[:4])  #it is same as [0:4] 
 
-word = "Amazing"
+word = "amazing"
 a = word[0:5:2]
 # String's functions
 print(len(word))
