@@ -22,3 +22,6 @@ print(f"hello {name} you are {word}")
 # print(name.replace("z","h"))
 
 print(len(word))
+
+
+# Srtings are immutable
