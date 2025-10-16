@@ -22,3 +22,5 @@ b = (1,3,4.53,"one","mango")
 print(b)
 # b[2] = 23034   can't do this because tuple cannot be changed
 print(b)
+c = b.index(3)  #returns the index of the first occurence of any element in the tuple
+print(c)
