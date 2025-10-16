@@ -5,8 +5,8 @@ list = [2,3,4.5,"Mango",True]
 
 list [2] = "zero" 
 # print(list)
-# print(list.sort)   works only if the items in the list are of same type
-# c=list.reverse()   works only if the items in the list are of same type
+# print(list.sort)   works only if the items in the list are of int
+# c=list.reverse()   works only if the items in the list are of int
 # print(c)
 list.insert(2,34567)
 # print(list)
