@@ -22,6 +22,8 @@ print(f"hello {name} you are {word}")
 # print(name.replace("z","h"))
 
 print(len(word))
-
+hii = "onetwo"
+# hii[2] = a  change not supported in strings
+print(hii)
 
 # Srtings are immutable
