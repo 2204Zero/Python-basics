@@ -12,11 +12,13 @@ a = word[0:5:2]
 print(len(word))
 
 print(word.endswith("g"))  # returns true as string ends with g
-print(word.endswith("d")) # returns false as string doesn't ends with d
-name = input("enter your name\n")
+print(word.startswith("ama")) # returns false as string doesn't ends with d
+# name = input("enter your name\n")
 
 print(f"hello {name} you are {word}")
 
-print(name.find("o"))
+# print(name.find("o"))
 
-print(name.replace("z","h"))
+# print(name.replace("z","h"))
+
+print(len(word))
