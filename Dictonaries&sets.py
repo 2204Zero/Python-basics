@@ -1,34 +1,68 @@
-# Dictonaries
-marks = {
-    "hello" : 10,
-    "name" : 24,
-    "hii" : 23
-} 
-print(marks)
-print(marks["hello"])   # returns value of key  (prints the value, if not exist returns none)
-print(marks.get("hello"))  # returns value of key  ( print value, if not exist returns an key error)
-print(marks.items())
-print(marks.keys())
-print(marks.values())
+# # Dictonaries
+# marks = {
+#     "hello" : 10,
+#     "name" : 24,
+#     "hii" : 23
+# } 
+# print(marks)
+# print(marks["hello"])   # returns value of key  (prints the value, if not exist returns none)
+# print(marks.get("hello"))  # returns value of key  ( print value, if not exist returns an key error)
+# print(marks.items())
+# print(marks.keys())
+# print(marks.values())
 
-# Set - it is a collection of well defined objects
-S = {}  # empty dictonary
-print(type(S))
-s = {1,2,3,2,4,4,3,5}  #set
-print(type(s))
+# # Set - it is a collection of well defined objects
+# S = {}  # empty dictonary
+# print(type(S))
+# s = {1,2,3,2,4,4,3,5}  #set
+# print(type(s))
 
-empty_set = set()
-print(type(empty_set))
+# empty_set = set()
+# print(type(empty_set))
+
+# print(s)
+
+# a = {1,4,5,3,3,2,6,4,6,7}    #in the latest version of python, set maintains the order unlike the pervious versions
+# print(a,type(a))
+
+# a.remove(4)  #method of set
+# print(a)
+# a.clear()   #method that clears everthing inside a set
+# print(a)
+
+# print(a.union(s))   #finds union of set 'a' and 's'
+# print(s.intersection(a))  #finds intersection of of both sets   - it will return empty set as we cleared everything inside set a.
+
+
+
+# # practise set
+# WAP to make a dictonary from hindi to english
+words = {
+    "madad" : "help",
+    "shunya" : "zero",
+    "naam" : "name"
+}
+# word = input("Enter the word you want meaning of:")
+# print(words[word])
+
+
+# WAP to take input from user and print set of those inputs once
+s = set()
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
+n = int(input("enter number :"))
+s.add(n)
 
 print(s)
-
-a = {1,4,5,3,3,2,6,4,6,7}    #in the latest version of python, set maintains the order unlike the pervious versions
-print(a,type(a))
-
-a.remove(4)  #method of set
-print(a)
-a.clear()   #method that clears everthing inside a set
-print(a)
-
-print(a.union(s))   #finds union of set 'a' and 's'
-print(s.intersection(a))  #finds intersection of of both sets   - it will return empty set as we cleared everything inside set a.
