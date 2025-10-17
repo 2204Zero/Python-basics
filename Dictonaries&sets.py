@@ -22,5 +22,13 @@ print(type(empty_set))
 
 print(s)
 
-a = {1,4,5,3,3,2,6,4,6,7}    #in the latest version of python, set maintains then order unlike the pervious versions
+a = {1,4,5,3,3,2,6,4,6,7}    #in the latest version of python, set maintains the order unlike the pervious versions
 print(a,type(a))
+
+a.remove(4)  #method of set
+print(a)
+a.clear()   #method that clears everthing inside a set
+print(a)
+
+print(a.union(s))   #finds union of set 'a' and 's'
+print(s.intersection(a))  #finds intersection of of both sets   - it will return empty set as we cleared everything inside set a.
