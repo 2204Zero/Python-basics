@@ -4,7 +4,7 @@ a = 100
 for i in range(a):
     print("Hello")
 
-for i in range (0,100,5):
+for i in range (0,100,5):     # here range (start,stop,step_size)
     print(i)
 
 # While loop 
