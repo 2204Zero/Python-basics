@@ -4,6 +4,9 @@ a = 100
 for i in range(a):
     print("Hello")
 
+for i in range (0,100,5):
+    print(i)
+
 # While loop 
 i = 1    # for while loop we have to initiate the iterator
 while (i<a):      #Correct 
