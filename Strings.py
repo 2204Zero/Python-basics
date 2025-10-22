@@ -26,4 +26,7 @@ hii = "onetwo"
 # hii[2] = a  change not supported in strings
 print(hii)
 
+
+b = "my name is zero"
+print("zeo" in b)
 # Srtings are immutable
