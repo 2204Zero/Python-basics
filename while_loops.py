@@ -5,7 +5,7 @@ i = 0
 while(i<len(l)):
     print(i)
     print(l[i])
-    print(l(i)) # we can use parenthesis here 
+    # print(l(i)) # we can use parenthesis here 
     i+=1
 
 # Tupple using while loop
