@@ -79,3 +79,11 @@
 # Q.3 Check that tuple type cannot be changed in python
 # a = (2434,34.54,"hello")
 # a[3] = 2340    # this will return erorr - tuple object doesn't support item assignment
+
+# Set - 4
+# Q.1 WAP to create a dictoniary of hindi words with values as thier english transalation. Provide user with an option to look it up!
+dict = {"name":"naam", "knowledge": "gyaan", "zero":"shunya"}
+option = input("Type name/knowladge/zero:")
+# print (option in dict)  will return true if option exist in dict
+# print(dict(option))     paranthesis will give an error  - paranthesis is used to call any object 
+# print(dict[option])     this is the correct way to print value from dict
