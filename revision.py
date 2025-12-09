@@ -82,8 +82,36 @@
 
 # Set - 4
 # Q.1 WAP to create a dictoniary of hindi words with values as thier english transalation. Provide user with an option to look it up!
-dict = {"name":"naam", "knowledge": "gyaan", "zero":"shunya"}
-option = input("Type name/knowladge/zero:")
+# dict = {"name":"naam", "knowledge": "gyaan", "zero":"shunya"}
+# option = input("Type name/knowladge/zero:")
 # print (option in dict)  will return true if option exist in dict
 # print(dict(option))     paranthesis will give an error  - paranthesis is used to call any object 
 # print(dict[option])     this is the correct way to print value from dict
+
+# Q.2 WAP to input eight numbers from the user and display all the unique numbers(once)
+# empty_set = set()
+# n = int(input("enter a number:"))
+# empty_set.add(n)
+# n = int(input("enter a number:"))
+# empty_set.add(n)
+# n = int(input("enter a number:"))
+# empty_set.add(n)
+# n = int(input("enter a number:"))
+# empty_set.add(n)
+# n = int(input("enter a number:"))
+# empty_set.add(n)
+# n = int(input("enter a number:"))
+# empty_set.add(n)
+    
+# print(empty_set)
+
+# Q.3 Can we have a set with 18 (int) and '18' (str) as a value in it ?
+# s = set()
+# s.add(18)
+# s.add("18")
+# print(s)
+
+# Q.5 If S = {}, what is the type of this set ?
+# this will not be any empty set, it will be considered as a dict
+
+
